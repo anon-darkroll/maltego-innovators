@@ -1,0 +1,89 @@
+/*header*/
+#body1 {clear:both;
+        background-color:white;}
+
+#left {float:left;
+       width:37%;
+       padding-left:1%;}
+
+#center {float:left;
+         width:30%;
+         padding-left:0%;}
+
+#logo {height:20%;
+       width:50%;}
+
+#right {float:left;
+        width:22%;
+        padding-left:10%;
+        clear:right;}
+
+#foot {width:100%;
+       clear:both;
+       text-align:center;}
+	/*header-menu*/
+#menu ul {margin-left:-15em;}
+
+#menu li {list-style-type:none;
+          border:1px black solid;
+          width:6em;
+          text-align:center;
+          float:left;
+          background-color:#eeeeff;
+          margin-left:0.5em;}
+
+#menu a {text-decoration:none;
+         color:black;
+         display:block;
+         background-color:#cccccc;
+         margin-right:-1em;
+         box-shadow:5px 5px 5px gray;
+         margin-bottom:2px;}
+
+#menu a:hover {background-color:#eeeeff;
+               box-shadow:3px 3px 3px gray;
+               border:none;}
+
+#menu li ul {display:none;}
+
+#menu li:hover > ul {display:block;
+                     margin-left:-2em;}
+
+#menu li:hover > ul ul {display:block;
+                         margin-left:-2em;}
+
+#menu li:hover >ul ul a {box-shadow:3px 3px 3px;
+                         border:none;}
+
+/*vision*/
+#vision {width:100%;
+         clear:both;
+         text-align:left;}
+
+         
+#iv {height:10%;
+     width:10%;
+     clear:both;}
+
+/*who are we*/
+#sdgp {float:left;width:40%;padding-left:10%;}   #sdgim {height:80%;width:80%;}
+
+#btlp {width 50%;clear:right;}                   #btlim {height:25%;width:30%;}
+                           /*agenda 2063*/
+#asp      {float:left;width:60%;}
+#63logop  {width:30%;}                           #63logoim  {height:70%;width:70%;}
+#piep     {float:left;width:30%;}                    #pieim {height:86%;width:76%;}
+#point20p {float:left;width:30%;}                #point20im {height:40%;width:50%;}
+#point7p  {float:left;width:20%;}                 #point7im {height:45%;width:45%;}
+#agesecp  {float:left;width:40%;}                #agesecim  {height:65%;width:65%;}
+#truep    {float:left;width:30%;}                   #trueim {height:55%;width:60%;}
+#resflowp {float:left;width:30%;}     	         #resflowim {height:70%;width:70%;}
+
+           
+
+/*voi*/
+#voi {width:100%;clear:both;text-align:center;}
+
+#ag35 {width:100%;clear:both;padding-left:25%;}
+
+#table {width:96%;}
